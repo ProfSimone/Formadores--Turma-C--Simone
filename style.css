@@ -27,4 +27,25 @@
 .cabecalho-logo{
     display: flex;
 }
+.escola-imagem{
+    width: 30%;
+}
+.escola{
+    background-image: linear-gradient(#684EB1 ,#D5B6DE);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.escola-texto-um{
+    padding: 24px 0;
+}
+.escola-div-conteudo{
+    width: 35%;
+}
+
 
