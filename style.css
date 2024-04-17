@@ -17,10 +17,14 @@ body{
 .cabecalho-imagem{
     width: 10%;   
 }
+.cabecalho-lista{
+    display: flex;
+}
+
 .cabecalho-lista-item{
     display: inline-block;
     margin:  0 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .cabecalho-titulo{
     display: block;
@@ -50,11 +54,39 @@ body{
 .escola-div-conteudo{
     width: 35%;
 }
+.contatos{
+    background-color: #CFA8F6;
+}
+
 .contatos-imagem{
-    width: 200px;
+    width: 100px;
+}
+.contatos-titulo{
+    text-align: center;
+    padding: 50px 0; 
+    color: #FFFFFF;  
 }
 .contatos-div{
     text-align: center;
     padding: 16px 0;
 }
 
+.contatos-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: #FFFFFF;
+}
+.rodape{
+    background-color: #7569BB;
+    display: flex;
+    
+}
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
+.rodape-texto{
+    padding: 25px;
+    font-size: 10px;
+    color: #FFFFFF;  
+}
